@@ -1,8 +1,8 @@
-
+password = "asdf"
 guest=3
 while guest > 0:
 	pw=input("請輸入密碼：")
-	if pw == "0725":
+	if pw == password:
 		print("登入成功")
 		break
 	else:
